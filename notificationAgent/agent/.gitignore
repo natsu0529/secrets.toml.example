@@ -1,0 +1,27 @@
+
+---
+
+### 📄 `.gitignore`
+
+Gitでバージョン管理する際に、不要なファイルや機密情報を含むファイルを無視（除外）するための設定ファイルです。
+
+```gitignore
+# --- Environments ---
+# .envファイル（機密情報を含む）
+.env
+# 仮想環境フォルダ
+/venv/
+/.venv/
+
+# --- Python ---
+# キャッシュファイル
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- IDEs / Editors ---
+# VSCode
+.vscode/
+# PyCharm
+.idea/

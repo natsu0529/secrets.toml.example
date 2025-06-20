@@ -1,0 +1,4 @@
+# requirements.txt (ADK Web用 最終版)
+google-adk
+deprecated
+python-dotenv
